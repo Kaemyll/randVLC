@@ -4,7 +4,7 @@
 
 import os, random, subprocess
 
-vidPath = str(input('Indiquez le chemin vers votre répertoire vidéo => '))
+vidPath = str(input('Indiquez le chemin vers votre répertoire vidéo => (Windows = \\) '))
 
 def rndmp():
    randomfile = random.choice(os.listdir(vidPath))
